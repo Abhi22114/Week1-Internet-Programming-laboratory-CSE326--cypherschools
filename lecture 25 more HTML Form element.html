@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML forms</h1>
+    <form action="./welcome.html" method="get">
+        <label for="username">Usename: </label>
+        <input type="text" id="username" name="username" placeholder="Username" required><br><br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" placeholder="Choose Strong Paswword" required><br><br>
+        <label for="email">email: </label>
+        <input type="email" id="email" name="email" placeholder="xyz@gmail.com" required><br><br>
+        <p>Select Your Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="Male"><br><br>
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Female" value="Female"><br><br>
+        <label for="Other">Other</label>
+        <input type="radio" name="Gender" id="Other" value="Other"><br><br>
+        <label for="age-group">Age Group</label>
+        <select name="age-group-values" id="age-group">
+            <option value="5-11">5-118</option>
+            <option value="11-21">11-21</option>
+            <option value="21-50">21-50</option>
+            <option value="50+">50+</option>
+        </select><br><br>
+        <h3>Date of Birth</h4>
+        <label for="date">Select Date Of Birth</label>
+        <input type="date" name="" id="date"><br><br>
+        <label for="birth certificate">Insert your Birth Certificate</label>
+        <input type="file" name="fileselect" id="birth certificate" accept=".pdf"><br><br>
+        <label for="color fav">Select Your Fav Color</label>
+        <input type="color" name="Fav Color" id="color fav"><br><br>
+        <h3>Text Area Comment</h3>
+        <textarea name="Comment" id="Comment" cols="30" rows="10" placeholder="type here"></textarea>
+        <br><br><input type="submit" value="Sign in">
+    </form>
+</body>
+</htm
